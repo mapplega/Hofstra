@@ -158,6 +158,18 @@ var geoJson = [{
   }
 }, {
     type: 'Feature',
+    "geometry": { "type": "Point", "coordinates": [12.477529048919678, 41.910629130784365]},
+    "properties": {
+        'title': 'Piazza del Popolo, Rome',
+        'marker-color': '#0000ff',
+        'marker-symbol': 'star',
+        'marker-size': 'medium',
+        'images': [
+          ['https://upload.wikimedia.org/wikipedia/commons/6/68/Piazza_del_Popolo_%28Roma%2C_Italy%29.jpg','This is near the area where Livia Hengel is']
+        ]
+    }
+}, {
+    type: 'Feature',
     "geometry": { "type": "Point", "coordinates": [11.26098633, 43.76712702]},
     "properties": {
         'title': 'The Hometown of Giulia Baldini',
@@ -334,7 +346,7 @@ $('#map').on('click', '.popup .cycle a', function() {
 });
 
 <!-- SET THE MAP VIEW HERE -->
-map.setView([49, -35], 4);
+map.setView([49, -35], 3);
 </script>
 
 
