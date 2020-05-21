@@ -146,8 +146,10 @@ var geoJson = [{
       'marker-symbol': 'city',
       'marker-size': 'medium',
       'images': [
-        ['https://drive.google.com/uc?id=1CCC0m-PSPVdKMI2r-4BTpcNfxi549Ppr','Primarily based in New York, Giulia Baldini, a graduating Senior at Hofstra University, is an Italian-Brazilian student who is trying to make a difference in not only her community, but her entire country.'],
-        ['https://drive.google.com/uc?id=1Xn5AtfsLIFhS5aYOl4LicRnn5mJEqYiE','This is the Garment District in NYC where Giulia Baldini began her overseas research into the Fashion Industry.']
+      ['https://drive.google.com/uc?id=1CCC0m-PSPVdKMI2r-4BTpcNfxi549Ppr','A new book by Giulia Baldini entitled, Fashion on The Beat, is more than a collection of interviews with famous designers; it is a statement to brown-skinned girls in Italy that they too can make it in the industry of fashion and fashion writing.'],
+        ['https://drive.google.com/uc?id=1CCC0m-PSPVdKMI2r-4BTpcNfxi549Ppr'],
+        ['https://drive.google.com/uc?id=1Xn5AtfsLIFhS5aYOl4LicRnn5mJEqYiE','Primarily based in New York, Giulia Baldini, a graduating Senior at Hofstra University, is an Italian-Brazilian student who is trying to make a difference in not only her community, but her entire country.'],
+        ['https://drive.google.com/uc?id=1QY7iRmgdZKMjSGZS6EiVr4jmNRX7Ledk','This is the illustrious town of Florence, also known as Firenze, where her roots are based. Her experiences as a brown-skinned Italian-Brazilian have shaped her and fuels the content found in her writing.']
       ]
   }
 }, {
@@ -192,6 +194,33 @@ var geoJson = [{
     }
 }, {
     type: 'Feature',
+    "geometry": { "type": "Point", "coordinates": [9.637370109558105, 45.68594626667995]},
+    "properties": {
+        'title': 'Ospedale Papa Giovanni XXIII',
+        'marker-color': '#ff0000',
+        'marker-symbol': 'hospital',
+        'marker-size': 'medium',
+        'images': [
+          ['http://molloymediaarchaeology.org/images/peacewall1.jpg','The nursing corrdinator at this hospital, Maddalena Ferrari spoke to AP Europe about the emotional toll of losing so many patients.'],
+          ['http://molloymediaarchaeology.org/images/peacewall2.jpg','Molloy students visited the peace lines on May 28, 2016.'],
+          ['http://molloymediaarchaeology.org/images/peacewall3.jpg','Students wrote their names and messages on the walls, leaving a mark on the structure. Writing on the walls is a common and important act of memorialization.']
+        ]
+    }
+}, {
+    type: 'Feature',
+    "geometry": { "type": "Point", "coordinates": [12.349198758602142, 41.74656174448181]},
+    "properties": {
+        'title': 'Institute of Clinical Cardiology Casalpalocco',
+        'marker-color': '#ff0000',
+        'marker-symbol': 'hospital',
+        'marker-size': 'medium',
+        'images': [
+          ['http://molloymediaarchaeology.org/images/dublintown.jpg','This hospital opened a COVID-19 clinic to help care for patients in late March.'],
+          ['http://molloymediaarchaeology.org/images/jervis.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/O31ciXE9tns" frameborder="0" allowfullscreen></iframe>','Students documented what they saw and experienced.']
+        ]
+      }
+}, {
+    type: 'Feature',
     "geometry": { "type": "Point", "coordinates": [11.26098633, 43.76712702]},
     "properties": {
         'title': 'The Hometown of Giulia Baldini',
@@ -212,9 +241,11 @@ var geoJson = [{
         'marker-symbol': 'industrial',
         'marker-size': 'medium',
         'images': [
-          ['https://drive.google.com/uc?id=1H9ksXq4hMr-0lLZGUBvSaEoEXKHkG44h','Nerys Muller, Stephan Hatchett, and Justyn Moore sat down to interview Erica Anesi, the CEO and CCO of pba SpA located in Tezze sul Brenta, Vicenza. Pba S.p.A is an Italian corporation focused on art-deco and industrial materials.'],
-          ['https://drive.google.com/uc?id=1qS8sgPaeYDc2BlMcDrrdlRICbJXhDEZW','<iframe width="280" height="195" src="https://www.youtube.com/embed/lFM4JsQ5_B4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','In light of the coronavirus, pba SpA has begun manufacturing and distributing anti-microbial materials and surfaces.']
-        ]
+        ['https://drive.google.com/uc?id=1H9ksXq4hMr-0lLZGUBvSaEoEXKHkG44h','Nerys, Stephan, and Justyn sat down to interview Erica Anesi, the COO of pba S.p.A. located in Tezze sul Brenta, Vicenza. This is an Italian corporation focused on art-deco and industrial materials.'],
+        ['https://drive.google.com/uc?id=1H9ksXq4hMr-0lLZGUBvSaEoEXKHkG44h','<iframe width="280" height="195" src="https://www.youtube.com/embed/ZqCVYTI42Og"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'],
+        ['https://drive.google.com/uc?id=1qS8sgPaeYDc2BlMcDrrdlRICbJXhDEZW','In light of the coronavirus, pba S.p.A. has begun manufacturing and distributing anti-microbial materials and surfaces such as doorhandles and countertops.'],
+        ['https://drive.google.com/uc?id=1_xZUQ_3w9cL8LnWkvd3jsR7mgf_Fyb-6','On the opposite side of the world, is the pba U.S.A. headquarters located in Brooklyn, New York. As a primary branch of operation for the company, it is here that Erica is also the acting CEO of this medium-sized business, tending to both international branches in the middle of this pandemic.']
+      ]
     }
 }, {
     type: 'Feature',
@@ -238,9 +269,11 @@ var geoJson = [{
         'marker-symbol': 'cinema',
         'marker-size': 'medium',
         'images': [
-          ['https://drive.google.com/uc?id=1mCv-P1wxgiMcunlCWsinG97KwK_UMACP','Having followed up with recent R.U.F.A. graduate Flavia Daniele over Zoom, we were able to grab her perspective on art, creativity, and photography amidst the coronavirus restrictions in Roma, IT.'],
-          ['https://drive.google.com/uc?id=1DNiVDhQ4i2xt3eSbP2eXe1axJKhlCVaB','Stephan Hatchett, Justyn Moore, and Nerys Muller had an interview with Flavia over Zoom, led by Nerys Muller, who conducted the entire interview in Italian.']
-        ]
+        ['https://drive.google.com/uc?id=1mCv-P1wxgiMcunlCWsinG97KwK_UMACP','Having followed up with recent R.U.F.A. graduate Flavia Daniele over Zoom, Stephan, Justyn, and Nerys were able to grab her perspective on art, creativity, and photography amidst the coronavirus restrictions in Roma, IT.'],
+        ['https://drive.google.com/uc?id=1mCv-P1wxgiMcunlCWsinG97KwK_UMACP','<iframe width="280" height="195" src="https://www.youtube.com/embed/fzCCDAYnw24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'],
+        ['https://drive.google.com/uc?id=1DNiVDhQ4i2xt3eSbP2eXe1axJKhlCVaB','In an interview conducted in Italian by Nerys, Flavia spoke greatly on her experiences trying to continue her photography, despite the restrictions put in place by the Italian government. Above, is one of her works from a few years ago.'],
+        ['https://drive.google.com/uc?id=1vjt5ri-cU5kYRzQoACOA_Pl_vfbI8pEM','While unfortunately, her plans to travel have been halted as a result of the coronavirus, Flavia has been spending her time in her own makeshift darkroom, creating black and white prints as pictured above.']
+      ]
     }
 }, {
   type: 'Feature',
